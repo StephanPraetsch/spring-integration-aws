@@ -132,7 +132,7 @@ public class SqsMessageDrivenChannelAdapter extends MessageProducerSupport imple
 
 	@Override
 	public String getComponentType() {
-		return "aws:sqs-message-driven-channel-adapter";
+		return "aws.sqs-message-driven-channel-adapter";
 	}
 
 	@Override
